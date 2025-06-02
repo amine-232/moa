@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "predeploy": "npx expo export:web && if exist expo-build rmdir /s /q expo-build && move dist expo-build",
-    "deploy": "gh-pages -d expo-build",
+    "predeploy": "npx expo export:web",
+    "deploy": "gh-pages -d web-build",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
